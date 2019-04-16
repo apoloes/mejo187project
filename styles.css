@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400');
+
+
+/*---------- Global Styles ----------*/
+body {
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	margin: 0;
+}
+
+article{
+	width: 60%;
+	font-size: 1.5em;
+	margin: 50px auto;
+}
+
+article a:hover {
+	text-decoration: none;
+}
+
+/*---------- Article styles ----------*/
+
+.home-article {
+	text-align: center;
+}
+
+.home-article .container-fluid p {
+	font-size: 1em;
+	margin: 25px auto;
+	line-height: 2em;
+	text-align: center;
+}
+
+.topic-article p{
+	line-height: 1.5em;
+	font-size: 1em;
+	letter-spacing: 2px;
+	margin: 20px 0;
+}
+
+.about-article {
+	width: 80%;
+	text-align: center;
+	line-height: 1.5em;
+}
+.about-article h2, .about-article h3{
+	line-height: 2em;
+	margin: 40px 0 20px;
+}
+
+.about-article h3{
+	font-size: 2em;
+	font-style: bold;
+}
+.about-article .row .col-sm-4 h4:first-of-type{
+	font-size: 1.6em;
+	margin: 50px 0 30px;
+}
+
+.intro {
+	margin: 30px 0;
+}
+.intro h2:first-of-type{
+	font-style: italic;
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+.video-player {
+	display: block;
+	margin: auto;
+	width: 80%;
+	height: 360px;
+}
+
+.first-character {
+	color: #b28d25;
+  	float: left;
+  	font-family: 'Times New Roman';
+  	font-size: 80px;
+  	line-height: 65px;
+  	padding-top: 4px;
+  	padding-right: 8px;
+  	padding-left: 3px;
+}
+.video {
+	text-align: center;
+	margin: 20px;
+}
+
+.q-a h2{
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.2em;
+	margin: 70px 0 30px;
+}
+
+/*---------- Header styles ----------*/
+header .navbar-default {
+    background-color: #b28d25;
+    border: none;
+}
+
+header .navbar-default .navbar-nav li a {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+header .navbar-default .navbar-nav li a:hover {
+	color: #3F3D35;
+}
+
+header .navbar-default .navbar-nav .active a {
+	font-weight: 700;
+	color: #FFFFFF;
+	border-bottom: 3px solid #FFF;
+	background-color: #b28d25;
+	padding-bottom: 5px;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+	background-color: #b28d25;
+	color: #3F3D35;
+}
+
+header a.navbar-brand img{
+	width: 240px;
+	height: auto;
+}
+
+.home{
+	background: url('images/index-background.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding: 14% 0;
+}
+
+.banner-home h1, .banner-home h2{ 
+	text-align: center;
+	line-height: 2em;
+}
+
+.banner-home h1 {
+	color: #EEAE5B;
+	width: 80%;
+	margin: auto;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 5.5em;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.banner-home h2 {
+	color: #FFF;
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-size: 1.6em;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000
+}
+
+.topic h1 {
+	background-color: #46392C;
+	font-size: 5em;
+	padding: 30px;
+}
+
+.coal {
+	background: url('images/coal.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 14% 0;
+}
+
+.wind {
+	background: url('images/wind-power.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 14% 0;
+}
+
+.electric{
+	background: url('images/power.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 14% 0;
+}
+
+.about {
+	background: url('images/about-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 14% 0;
+}
+.content h2, .content h3{
+	line-height: 1.5em;
+	margin: 30px 0 0;
+	font-weight: bold;
+}
+
+.content h3 {
+	margin: 10px 0 20px;
+}
+
+p.cut {
+	font-weight: 200;
+	line-height: 1.2em;
+	font-size: .8em;
+	margin-bottom: 50px;
+}
+
+.topic-article img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	margin-top: 60px;
+}
+/*---------- Footer styles ----------*/
+footer {
+	background: black;
+	color: white;
+	margin-top: 50px;
+}
+
+footer .navbar-default {
+	background: transparent;
+	border: none;
+	padding-top: 15px;
+}
+
+footer .row .col-sm-6 p {
+	padding-top: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 500;
+}
+
+/*---------- Carousel ----------*/
+#pan-carousel {
+	margin: 20px auto;
+}
+.item {
+	max-height: 500px;
+}
+
+#pan-carousel .item .carousel-caption h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+#pan-carousel .item .carousel-caption p.description{
+	font-size: 1em;
+	color: #FFD9AD;
+	margin-bottom: 30px;
+	font-weight: 600;
+/*	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+*/}
+
+#pan-carousel .item .carousel-caption p a{
+	font-size: 1em;
+	font-weight: 600;
+  	color: #FFD9AD;
+  	text-decoration: none;
+}
+
+
+/*---------- Media queries ----------*/
+@media screen and (max-width: 1078px){
+	#pan-carousel .item .carousel-caption h1 {
+	  font-size: 1em;
+	  margin: 10px;
+	}
+	#pan-carousel .item .carousel-caption p.description{
+	  font-size: .7em;
+	  margin-bottom: 20px;
+	}
+	#pan-carousel .item .carousel-caption p a{
+	  font-size: .7em;
+	  font-weight: 600;
+	  color: #FFD9AD;
+	  text-decoration: none;
+	} 
+}
+@media screen and (max-width: 767px){
+	#pan-carousel {
+		width: 90%;
+	}
+	#pan-carousel .item .carousel-caption h1 {
+		font-size: 2em;
+	}
+	#pan-carousel .item .carousel-caption p.description{
+		font-size: 1.4em;
+	}
+	#pan-carousel .item .carousel-caption p a{
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 609px){
+	#pan-carousel .item .carousel-caption h1 {
+		font-size: 1em;
+		margin-bottom: 5px;
+	}
+	#pan-carousel .item .carousel-caption p.description{
+		font-size: 0.8em;
+	}
+	#pan-carousel .item .carousel-caption p a{
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	article {
+		width: 95%;
+		font-size: 1em;
+	}
+	header .banner-home h1{
+		font-size: 2em;
+	}
+	header .banner-home h2{
+		font-size: 1.5em;
+	}
+}
